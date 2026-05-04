@@ -33,7 +33,7 @@ jobs:
       - name: Project Setup
         run: |
           npm run setup
-          npm run dev:daeom
+          npm run dev:daemon
 
       - name: Run Claude Code
         id: claude
